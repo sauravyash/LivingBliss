@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.mainBGImg {
+  height: calc(100vh - 4rem);
+  width: 100vw;
+  z-index: 100;
+}
+
+.mainBGImg span {
+  font-size: 6vw;
+  text-align: center;
+  font-weight: 900;
+  color: rgba(101, 21, 221, 1.0);
+}
